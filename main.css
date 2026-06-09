@@ -922,7 +922,7 @@ ul {
 .right-summary-card {
   display: flex;
   gap: 4px;
-  width: 55%;
+  width: 60%;
   flex-wrap: wrap;
 
 }
