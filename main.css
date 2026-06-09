@@ -922,8 +922,9 @@ ul {
 .right-summary-card {
   display: flex;
   gap: 4px;
-  width: 50%;
+  width: 55%;
   flex-wrap: wrap;
+
 }
 .right-summary-card p {
   font-size: 16px;
