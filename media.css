@@ -283,9 +283,13 @@
 }
 
 @media (min-width: 1200px) {
-  .container {
-    grid-template-columns: 280px repeat(3, 1fr);
-  }
+
+.container {
+  grid-template-columns: 230px 1.2fr 1fr 1.3fr;
+}
+.right-side {
+  width: 230px;
+}
 
   .inner-monthly {
     display: grid;
@@ -296,4 +300,9 @@
   .box-montly {
     width: 100%;
   }
+  .last-transaction{
+    min-width: 40%;
+  }
+
+
 }
